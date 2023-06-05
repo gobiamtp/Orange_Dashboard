@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-05T21:54:58 IST" name="Suite" finished-at="2023-06-05T21:56:51 IST" duration-ms="112499">
+    <groups>
+    </groups>
+    <test started-at="2023-06-05T21:54:58 IST" name="Test" finished-at="2023-06-05T21:56:51 IST" duration-ms="112499">
+      <class name="Project.orange.HRM.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Project.orange.HRM.LoginTest@25084a1e]" started-at="2023-06-05T21:54:58 IST" name="setUp" finished-at="2023-06-05T21:55:07 IST" duration-ms="8580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Project.orange.HRM.LoginTest@25084a1e]" started-at="2023-06-05T21:55:07 IST" name="loginTest" finished-at="2023-06-05T21:55:10 IST" duration-ms="3013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Project.orange.HRM.LoginTest@25084a1e]" started-at="2023-06-05T21:55:10 IST" name="close_browser" finished-at="2023-06-05T21:55:11 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Project.orange.HRM.LoginTest -->
+      <class name="Project.orange.HRM.DirTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Project.orange.HRM.DirTest@3bf9ce3e]" started-at="2023-06-05T21:56:43 IST" name="setUp" finished-at="2023-06-05T21:56:50 IST" duration-ms="7187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DP()[pri:0, instance:Project.orange.HRM.DirTest@3bf9ce3e]" started-at="2023-06-05T21:56:50 IST" name="DP" finished-at="2023-06-05T21:56:50 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at Project.orange.HRM.Directory.dropdown(Directory.java:58)
+at Project.orange.HRM.DirTest.DP(DirTest.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DP -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Project.orange.HRM.DirTest@3bf9ce3e]" started-at="2023-06-05T21:56:50 IST" name="close_browser" finished-at="2023-06-05T21:56:51 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Project.orange.HRM.DirTest -->
+      <class name="Project.orange.HRM.DashboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:55:11 IST" name="setUp" finished-at="2023-06-05T21:55:17 IST" duration-ms="6677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Bottommenu()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:55:17 IST" name="Bottommenu" finished-at="2023-06-05T21:55:19 IST" duration-ms="1835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bottommenu -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:55:19 IST" name="closebrowser" finished-at="2023-06-05T21:55:20 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:55:20 IST" name="setUp" finished-at="2023-06-05T21:55:28 IST" duration-ms="8092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Dash_Frame1()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:55:28 IST" name="Dash_Frame1" finished-at="2023-06-05T21:55:31 IST" duration-ms="3297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dash_Frame1 -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:55:31 IST" name="closebrowser" finished-at="2023-06-05T21:55:32 IST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:55:32 IST" name="setUp" finished-at="2023-06-05T21:55:39 IST" duration-ms="7401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MyActionsFrame()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:55:39 IST" name="MyActionsFrame" finished-at="2023-06-05T21:55:52 IST" duration-ms="13027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyActionsFrame -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:55:52 IST" name="closebrowser" finished-at="2023-06-05T21:55:53 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:55:53 IST" name="setUp" finished-at="2023-06-05T21:56:01 IST" duration-ms="8046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Profilepage()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:56:01 IST" name="Profilepage" finished-at="2023-06-05T21:56:06 IST" duration-ms="5400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Profilepage -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:56:06 IST" name="closebrowser" finished-at="2023-06-05T21:56:07 IST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:56:07 IST" name="setUp" finished-at="2023-06-05T21:56:15 IST" duration-ms="7699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="help()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:56:15 IST" name="help" finished-at="2023-06-05T21:56:15 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- help -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:56:15 IST" name="closebrowser" finished-at="2023-06-05T21:56:16 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:56:16 IST" name="setUp" finished-at="2023-06-05T21:56:22 IST" duration-ms="6052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="quicklaunch()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:56:22 IST" name="quicklaunch" finished-at="2023-06-05T21:56:42 IST" duration-ms="20638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quicklaunch -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Project.orange.HRM.DashboardTest@156b88f5]" started-at="2023-06-05T21:56:42 IST" name="closebrowser" finished-at="2023-06-05T21:56:43 IST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Project.orange.HRM.DashboardTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
