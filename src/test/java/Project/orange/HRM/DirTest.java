@@ -23,7 +23,12 @@ public class DirTest extends TestBaseClass {
 		
 	}
 		@Test
-		public void DP() 
+		public void myin()
+		{
+			dir.myinfo();
+		} 
+		@Test
+		public void DP() throws InterruptedException 
 		{
 	      dir.dropdown();
 		 
